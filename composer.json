@@ -1,0 +1,26 @@
+{
+    "name": "aditamairhamdev/midtranscore",
+    "description": "mengambil data dari midtrans tanpa perlu terlalu banyak konfigurasi pada class , helper dan lainnya",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Lucky Irham Aditama",
+            "email": "aditamairham66@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Aditamairhamdev\\MidtransCore\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aditamairhamdev\\MidtransCore\\MidtransCoreServiceProvider"
+            ]
+        }
+    }
+}
