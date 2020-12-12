@@ -19,6 +19,11 @@ DB_PASSWORD=**password**
 $ php artisan vendor:publish --provider="Aditamairhamdev\MidtransCore\MidtransCoreServiceProvider"
 ```
 
+4. Run the following command at the terminal
+```php
+$ php artisan migrate
+```
+
 #### midtranscore api base
 for the midtranscore midtrans fire endpoint there are three endpoints:
 - {project_base}/midtrans/credit-card `--METHOD = POST`
