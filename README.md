@@ -1,9 +1,6 @@
 # midtranscore
 fetch data from midtrans without the need for too much configuration on classes, helpers and others
 
-### Install Command
-``composer require aditamairhamdev/midtranscore``
-
 ## Installation
 1. Open the terminal, navigate to your laravel project directory.
 ```php
