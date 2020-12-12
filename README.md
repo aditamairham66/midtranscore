@@ -1,6 +1,27 @@
 # midtranscore
 fetch data from midtrans without the need for too much configuration on classes, helpers and others
 
+### Install Command
+``composer require aditamairhamdev/midtranscore``
+
+## Installation
+1. Open the terminal, navigate to your laravel project directory.
+```php
+$ composer require aditamairhamdev/midtranscore
+```
+
+2. Setting the database configuration, open .env file at project root directory
+```
+DB_DATABASE=**your_db_name**
+DB_USERNAME=**your_db_user**
+DB_PASSWORD=**password**
+```
+
+3. Run the following command at the terminal
+```php
+$ php artisan vendor:publish --provider="Aditamairhamdev\MidtransCore\MidtransCoreServiceProvider"
+```
+
 #### midtranscore api base
 for the midtranscore midtrans fire endpoint there are three endpoints:
 - {project_base}/midtrans/credit-card `--METHOD = POST`
