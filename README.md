@@ -1,3 +1,7 @@
+[![GitHub stars](https://img.shields.io/github/stars/aditamairham66/midtranscore?style=flat-square)](https://github.com/aditamairham66/midtranscore/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/aditamairham66/midtranscore?style=flat-square)](https://github.com/aditamairham66/midtranscore/network)
+[![GitHub issues](https://img.shields.io/github/issues/aditamairham66/midtranscore?style=flat-square)](https://github.com/aditamairham66/midtranscore/issues)
+
 # midtranscore
 fetch data from midtrans without the need for too much configuration on classes, helpers and others
 
