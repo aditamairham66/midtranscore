@@ -1,33 +1,3 @@
-[![GitHub stars](https://img.shields.io/github/stars/aditamairham66/midtranscore?style=flat-square)](https://github.com/aditamairham66/midtranscore/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/aditamairham66/midtranscore?style=flat-square)](https://github.com/aditamairham66/midtranscore/network)
-[![GitHub issues](https://img.shields.io/github/issues/aditamairham66/midtranscore?style=flat-square)](https://github.com/aditamairham66/midtranscore/issues)
-
-# midtranscore
-fetch data from midtrans without the need for too much configuration on classes, helpers and others
-
-## Installation
-1. Open the terminal, navigate to your laravel project directory.
-```php
-$ composer require aditamairhamdev/midtranscore
-```
-
-2. Setting the database configuration, open .env file at project root directory
-```
-DB_DATABASE=**your_db_name**
-DB_USERNAME=**your_db_user**
-DB_PASSWORD=**password**
-```
-
-3. Run the following command at the terminal
-```php
-$ php artisan vendor:publish --provider="Aditamairhamdev\MidtransCore\MidtransCoreServiceProvider"
-```
-
-4. Run the following command at the terminal
-```php
-$ php artisan migrate
-```
-
 #### midtranscore api base
 for the midtranscore midtrans fire endpoint there are three endpoints:
 - {project_base}/midtrans/credit-card `--METHOD = POST`
@@ -191,6 +161,3 @@ in a bank transfer there is a list of banks that can be processed, among others
 ```
 'BCA', 'Permata', 'BNI', 'Mandiri'
 ```
-
-## Documentation
-others documentation you can see : [Documentation](/docs/index.md)
